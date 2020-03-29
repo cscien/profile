@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gallery.apps.GalleryConfig',
+    #gallery文件夹下apps.py文件的 GalleryConfig 
 ]
 
 MIDDLEWARE = [
