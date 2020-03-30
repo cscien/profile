@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'gallery.apps.GalleryConfig',
     #gallery文件夹下apps.py文件的 GalleryConfig 
+    'gallery.apps.GalleryConfig',
+    'blog',
+    
 ]
 
 MIDDLEWARE = [
@@ -124,5 +126,3 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT =os.path.join(BASE_DIR, 'media')
-
-
